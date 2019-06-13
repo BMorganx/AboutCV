@@ -1,0 +1,199 @@
+body {
+  background: white;
+  margin:0;
+  text-align: center;
+  font-family: 'ZCOOL XiaoWei',serif;
+
+}
+
+
+h1 {
+  color: #ffd700;
+  font-family: Sacramento, cursive;
+  font-size: 5.625rem;
+  margin-left: 700;
+  margin-top: 0;
+
+}
+
+h2,h3 {
+  color: #ffd700;
+
+}
+
+a {
+  color: #ffd700;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+.footer-link {
+  color: #ffd700;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+
+.me {
+  padding: 0;
+  border-radius: 50%;
+  width: 300px;
+  height:300px;
+
+}
+
+.top-link {
+  padding-left: 50px;
+  text-align: right;
+  padding: 10px;
+
+}
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  margin-top: 50px;
+
+}
+
+a:hover {
+  color: #EAF6F6;
+
+}
+
+h5 {
+  color: #ffd700;
+  font-family: Montserrat, sans-serif;
+  margin-left: 700;
+  margin-top: 0;
+  margin-bottom: 100px;
+  font-size: 1.6rem;
+
+
+}
+
+
+hr{
+ border: dotted #EAF6F6 6px;
+ border-bottom: none;
+ width: 4%;
+ margin: 100px auto;
+
+}
+
+p {
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #022c43;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.middle-container {
+  margin: 100px 0;
+
+}
+
+.bottom-container {
+  background-color: #022c43;
+  padding: 50px 0 20px;
+
+}
+
+.bio {
+  width: 30%;
+  margin: auto;
+
+
+}
+
+.top-cloud{
+  position: absolute;
+  right: 60px;
+  bottom: 200px;
+  top: 50px;
+  height: auto;
+  width: 20%;
+
+}
+.nav {
+  background-color: #022c43;
+  padding-left: 1000px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 50px;
+  bottom: 150px;
+  height: auto;
+  width: 20%;
+}
+
+.obsv {
+  width: 35%;
+  height:auto;
+}
+
+.laptop {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.coding {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.app {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.research {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 130px auto 130px auto;
+  text-align: left;
+  margin-bottom: 150px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: auto;
+}
+
+.btn {
+	background-color:#ffd900;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	border:1px solid #ffd900;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:16px 29px;
+	text-decoration:none;
+  margin-bottom: 50px;
+  margin-top: 30px;
+
+}
+.btn:hover {
+	background-color:#ffd900;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
