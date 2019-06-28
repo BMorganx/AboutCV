@@ -1,11 +1,10 @@
 body {
   background: white;
-  margin:0;
+  font-family: 'ZCOOL XiaoWei', serif;
+  margin: 0;
   text-align: center;
-  font-family: 'ZCOOL XiaoWei',serif;
 
 }
-
 
 h1 {
   color: #ffd700;
@@ -13,17 +12,17 @@ h1 {
   font-size: 5.625rem;
   margin-left: 700;
   margin-top: 0;
-
 }
 
-h2,h3 {
+h2, h3 {
   color: #ffd700;
-
+  font-size: 2vw;
 }
 
 a {
   color: #ffd700;
   font-family: 'Montserrat', sans-serif;
+  font-size: 1vw;
   text-decoration: none;
 }
 
@@ -32,33 +31,30 @@ a {
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
-
 }
 
 .me {
-  padding: 0;
   border-radius: 50%;
-  width: 300px;
-  height:300px;
+  height: 25%;
+  padding: 0;
+  width: 25%;
 
 }
 
 .top-link {
+  padding: 10px;
   padding-left: 50px;
   text-align: right;
-  padding: 10px;
-
 }
+
 .copyright {
   color: #EAF6F6;
   font-size: 0.75rem;
   margin-top: 50px;
-
 }
 
 a:hover {
   color: #EAF6F6;
-
 }
 
 h5 {
@@ -68,65 +64,50 @@ h5 {
   margin-top: 0;
   margin-bottom: 100px;
   font-size: 1.6rem;
-
-
 }
 
-
-hr{
- border: dotted #EAF6F6 6px;
- border-bottom: none;
- width: 4%;
- margin: 100px auto;
-
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 
 p {
   line-height: 2;
+  font-size: 2vw;
 }
 
 .top-container {
   background-color: #022c43;
   position: relative;
   padding-top: 100px;
-
 }
 
 .middle-container {
   margin: 100px 0;
-
 }
 
 .bottom-container {
   background-color: #022c43;
   padding: 50px 0 20px;
-
 }
 
 .bio {
   width: 30%;
   margin: auto;
-
-
 }
 
-.top-cloud{
+.top-planet {
   position: absolute;
   right: 60px;
   bottom: 200px;
   top: 50px;
   height: auto;
   width: 20%;
-
-}
-.nav {
-  background-color: #022c43;
-  padding-left: 1000px;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
-.bottom-cloud {
+.bottom-planet {
   position: absolute;
   left: 50px;
   bottom: 150px;
@@ -136,7 +117,7 @@ p {
 
 .obsv {
   width: 35%;
-  height:auto;
+  height: auto;
 }
 
 .laptop {
@@ -144,16 +125,19 @@ p {
   float: left;
   margin-right: 30px;
 }
+
 .coding {
   width: 25%;
   float: right;
   margin-left: 30px;
 }
+
 .app {
   width: 25%;
   float: left;
   margin-right: 30px;
 }
+
 .research {
   width: 25%;
   float: right;
@@ -173,27 +157,28 @@ p {
 }
 
 .btn {
-	background-color:#ffd900;
-	-moz-border-radius:42px;
-	-webkit-border-radius:42px;
-	border-radius:42px;
-	border:1px solid #ffd900;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:18px;
-	font-weight:bold;
-	padding:16px 29px;
-	text-decoration:none;
-  margin-bottom: 50px;
-  margin-top: 30px;
+  background-color: #ffd900;
+      -moz-border-radius: 42px;
+      -webkit-border-radius: 42px;
+      border-radius: 42px;
+      border: 0.3em solid #ffd900;
+      display: inline-block;
+      cursor: pointer;
+      color: #ffffff;
+      font-family: Arial;
+      font-size: 2vw;
+      font-weight: bold;
+      padding: 1.1em 1.1em;
+      text-decoration: none;
+      margin-bottom: 4%;
+      margin-top: 4%;
+}
 
-}
 .btn:hover {
-	background-color:#ffd900;
+  background-color: #ffd900;
 }
+
 .btn:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
